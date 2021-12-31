@@ -15,11 +15,11 @@ C:/Users/EKAJ/Documents/FYP/GitHub Folder/Wild-Ireland-FYP/Wild-Ireland-FYP/Wild
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54608
+54882
 Successfully changed project path to: C:/Users/EKAJ/Documents/FYP/GitHub Folder/Wild-Ireland-FYP/Wild-Ireland-FYP/Wild-Ireland
 C:/Users/EKAJ/Documents/FYP/GitHub Folder/Wild-Ireland-FYP/Wild-Ireland-FYP/Wild-Ireland
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 32.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001448 seconds.
+Registered in 0.001478 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
+- Completed reload, in  0.849 seconds
 Domain Reload Profiling:
-	ReloadAssembly (799ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (306ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (118ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (123ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
+				RefreshPlugins (29ms)
 				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002701 seconds.
+Registered in 0.002877 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  0.847 seconds
 Domain Reload Profiling:
-	ReloadAssembly (808ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (646ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (283ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (231ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (246ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.0 MB.
-System memory in use after: 86.0 MB.
+Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 2.689700 ms (FindLiveObjects: 0.145800 ms CreateObjectMapping: 0.032600 ms MarkObjects: 2.345600 ms  DeleteObjects: 0.164800 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 1.916300 ms (FindLiveObjects: 0.160100 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.602500 ms  DeleteObjects: 0.122600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,289 +131,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Douglas bark/DouglasBark.mat
-  artifactKey: Guid(df4bf71d343eb5244b668a61c5f2b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Douglas bark/DouglasBark.mat using Guid(df4bf71d343eb5244b668a61c5f2b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f35af859792e4176aa80596d2479736') in 0.091291 seconds 
-  Import took 0.093568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.772922 seconds.
-  path: Assets/Trees
-  artifactKey: Guid(1049232f75777824191f86c4315f6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees using Guid(1049232f75777824191f86c4315f6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ceff67673e15007e44d3546a5c909') in 0.006343 seconds 
-  Import took 0.008528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002036 seconds.
-  path: Assets/Trees
-  artifactKey: Guid(1049232f75777824191f86c4315f6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees using Guid(1049232f75777824191f86c4315f6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ceff67673e15007e44d3546a5c909') in 0.001733 seconds 
-  Import took 0.003324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.199406 seconds.
-  path: Assets/Trees/Aspen.fbx
-  artifactKey: Guid(aaf3931d60af2cd4abe72a7a01a97caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/Aspen.fbx using Guid(aaf3931d60af2cd4abe72a7a01a97caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764f86b1473e7e6efead2e78ccb9586a') in 0.063632 seconds 
-  Import took 0.066565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Trees/douglas.fbx
-  artifactKey: Guid(ba0d83079ca34a741921e231f08ba937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/douglas.fbx using Guid(ba0d83079ca34a741921e231f08ba937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbb588ba75c64253ead5bc33cd6d617') in 0.038915 seconds 
-  Import took 0.041315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Trees/birch.blend
-  artifactKey: Guid(7060303c758ab1a449118ec4e7707354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/birch.blend using Guid(7060303c758ab1a449118ec4e7707354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae423f27d1fed9e872bd18f286623ff3') in 0.046941 seconds 
-  Import took 0.050176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Trees/Willow.fbx
-  artifactKey: Guid(59cc66826aa7a644fbbf7ef5a77e9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/Willow.fbx using Guid(59cc66826aa7a644fbbf7ef5a77e9829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4edcede78096f7ff89b6c4b07955390') in 0.038336 seconds 
-  Import took 0.041012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Trees/Pine.fbx
-  artifactKey: Guid(bea3c88a42fa8c340aedb90e7dbac136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/Pine.fbx using Guid(bea3c88a42fa8c340aedb90e7dbac136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd81284b81d6c872b394c213de1fcc07') in 0.042671 seconds 
-  Import took 0.045283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Trees/Maple.fbx
-  artifactKey: Guid(027d4ce9780c72f43872127ccfa7ac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/Maple.fbx using Guid(027d4ce9780c72f43872127ccfa7ac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a477c4c754f94172e6fbe745749cd') in 0.046135 seconds 
-  Import took 0.049627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.196857 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Materials/Trunk.mat
-  artifactKey: Guid(c65554616de659d4e88a136854f4710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Materials/Trunk.mat using Guid(c65554616de659d4e88a136854f4710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b465758cd7973e52e6e21cf122b996c5') in 0.015393 seconds 
-  Import took 0.017854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/SkySerie Freebie/UnderTheSea4k.mat
-  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83266565928370635335bd00d196b83') in 0.093199 seconds 
-  Import took 0.097163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/SkySerie Freebie/UnearthlyRed.mat
-  artifactKey: Guid(5d133deeaa66ed445853e946ff25e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySerie Freebie/UnearthlyRed.mat using Guid(5d133deeaa66ed445853e946ff25e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2101895a12c7d3faf714d74473935d2f') in 0.070516 seconds 
-  Import took 0.074202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Materials/WeepingWillow Leaves/WillowLeaves.mat
-  artifactKey: Guid(a98527e686e0c54408a7f234538546c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/WeepingWillow Leaves/WillowLeaves.mat using Guid(a98527e686e0c54408a7f234538546c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b5b4d1461eaa963e8874f40ff8b833') in 0.022442 seconds 
-  Import took 0.024369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Materials/WillowBark/WillowBark.mat
-  artifactKey: Guid(693f9cacaa83ef048a26e6655be9575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/WillowBark/WillowBark.mat using Guid(693f9cacaa83ef048a26e6655be9575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c43376904c6d347bf382ae90e0744ae') in 0.013115 seconds 
-  Import took 0.015028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Materials/Trunk 2.mat
-  artifactKey: Guid(2f99faca45075ef468cf5bf3dfb5a4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Materials/Trunk 2.mat using Guid(2f99faca45075ef468cf5bf3dfb5a4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a265d14b2769aef099ea9e40c295ea7') in 0.014004 seconds 
-  Import took 0.015936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Materials/Wood.mat
-  artifactKey: Guid(c7fb1a1a46fe5644394d8e71972b7751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Materials/Wood.mat using Guid(c7fb1a1a46fe5644394d8e71972b7751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd01d0ba03f72cf7256881e1244331b') in 0.016103 seconds 
-  Import took 0.018057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.363661 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(7be782ba93697844a935c8ccea4cc82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(7be782ba93697844a935c8ccea4cc82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42db314d4fc9d51012a51ab7ff81a21c') in 0.005749 seconds 
-  Import took 0.007964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100880 seconds.
-  path: Assets/Materials/NewLayer.terrainlayer
-  artifactKey: Guid(3487836ec12c28641a928368c94a37fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/NewLayer.terrainlayer using Guid(3487836ec12c28641a928368c94a37fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4abdae756c42df4a7ae6bb79b6dc725') in 0.062420 seconds 
-  Import took 0.064741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.493899 seconds.
-  path: Assets/Materials/Douglas Leaves
-  artifactKey: Guid(2e06c53874089f4499cdaa8a29c7620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Douglas Leaves using Guid(2e06c53874089f4499cdaa8a29c7620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abafbfe5b269af206c9daeca68454a11') in 0.005324 seconds 
-  Import took 0.007424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.023483 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Aspen Trees.fbx
-  artifactKey: Guid(7f2a6dea318e1b04a828add82e57a011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Aspen Trees.fbx using Guid(7f2a6dea318e1b04a828add82e57a011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e223d94703534e872b5301c97e4e46b') in 0.170389 seconds 
-  Import took 0.172910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Mountains.fbx
-  artifactKey: Guid(a8bfb70bbef93e9479bd087097612565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Mountains.fbx using Guid(a8bfb70bbef93e9479bd087097612565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6e5b0028130a34187c9753a6637c81') in 0.230031 seconds 
-  Import took 0.231981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Maple Trees.fbx
-  artifactKey: Guid(3aa5277c920b6cc4a9e2c77ba554839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Maple Trees.fbx using Guid(3aa5277c920b6cc4a9e2c77ba554839c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be130728cfa6daa591f8674461b647d') in 0.090980 seconds 
-  Import took 0.093119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Mossy Rocks.fbx
-  artifactKey: Guid(1cc3510cf1f1660408395518d447b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Mossy Rocks.fbx using Guid(1cc3510cf1f1660408395518d447b1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66999cf6c27bfd3dadd120100fe20eb0') in 0.041615 seconds 
-  Import took 0.043619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Fallen Branches.fbx
-  artifactKey: Guid(f09b740ad90d06c4ba18e50cc18a3f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Fallen Branches.fbx using Guid(f09b740ad90d06c4ba18e50cc18a3f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa06a5e3ebd1abdfb03daff651cc23') in 0.050553 seconds 
-  Import took 0.052505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Tree Stumps.fbx
-  artifactKey: Guid(cdfb653c912be844bb9e8ee727f75093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Tree Stumps.fbx using Guid(cdfb653c912be844bb9e8ee727f75093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1786eeb2e2c65209ff8a3a86b665b7c8') in 0.037776 seconds 
-  Import took 0.039742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Fog.fbx
-  artifactKey: Guid(4f7d1de2e186f584cafb14757c8a6e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Fog.fbx using Guid(4f7d1de2e186f584cafb14757c8a6e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9f8631aa2d4c18af446511f60e837d') in 0.012537 seconds 
-  Import took 0.014509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Pine Trees.fbx
-  artifactKey: Guid(36739da0a15a3504a9d10f5b033c4d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Pine Trees.fbx using Guid(36739da0a15a3504a9d10f5b033c4d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59accd28418ed38608f7383fea07d9e8') in 0.058083 seconds 
-  Import took 0.060328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Cliffs.fbx
-  artifactKey: Guid(4666e8c53c3efde42ae97809b4221244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Cliffs.fbx using Guid(4666e8c53c3efde42ae97809b4221244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55163f3f2aa69d67971b6e364cb49145') in 0.056554 seconds 
-  Import took 0.058522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Pebbles and Debris.fbx
-  artifactKey: Guid(d91ce5a19f4f5774eac66516c6e5f6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Pebbles and Debris.fbx using Guid(d91ce5a19f4f5774eac66516c6e5f6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1493a2cbf959e012262d464d8a0c3a') in 0.097095 seconds 
-  Import took 0.099284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Flowers.fbx
-  artifactKey: Guid(b9ee2eae59a2450408a8cd887d4d7a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Flowers.fbx using Guid(b9ee2eae59a2450408a8cd887d4d7a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad39426a7ce7095a5c4ccb188e75229') in 0.060505 seconds 
-  Import took 0.062580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Conifer Trees.fbx
-  artifactKey: Guid(8d87b5793d7505743a3adb739b37695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Conifer Trees.fbx using Guid(8d87b5793d7505743a3adb739b37695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4963f985c7826d4904504223d7ff80') in 0.194936 seconds 
-  Import took 0.197190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Bushes.fbx
-  artifactKey: Guid(ac8b88faccc1455498aedea1541b212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Bushes.fbx using Guid(ac8b88faccc1455498aedea1541b212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb2b7e320031ded1421b90c30340c99') in 0.071821 seconds 
-  Import took 0.073776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Larch Trees.fbx
-  artifactKey: Guid(5c8f5301a02c53844a047a163186292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Larch Trees.fbx using Guid(5c8f5301a02c53844a047a163186292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313ef748ad2298f3e8fba9da4d979e32') in 0.178252 seconds 
-  Import took 0.180453 seconds .
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289988fcecf3b00d1602f8d2b589f7dd') in 0.134105 seconds 
+  Import took 0.136382 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000164 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Spruce Trees.fbx
-  artifactKey: Guid(72544c1b6d1fa0847b1b754df22cd989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Spruce Trees.fbx using Guid(72544c1b6d1fa0847b1b754df22cd989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11084546223777574afdaa6c5b57fcd3') in 0.081922 seconds 
-  Import took 0.083903 seconds .
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2210586957436df79bf961aeff06e') in 0.053966 seconds 
+  Import took 0.056046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Grass.fbx
-  artifactKey: Guid(d429ad334c4e61b408c28da56b5ef7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Hylophobia - Stylized Forest/Contents/Mesh/Grass.fbx using Guid(d429ad334c4e61b408c28da56b5ef7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a27280a1be10c2978a2f89d890f6eb') in 0.050473 seconds 
-  Import took 0.052458 seconds .
+  Time since last request: 0.000172 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.061567 seconds 
+  Import took 0.063900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.361458 seconds.
-  path: Assets/Trees/douglas.fbx
-  artifactKey: Guid(ba0d83079ca34a741921e231f08ba937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Trees/douglas.fbx using Guid(ba0d83079ca34a741921e231f08ba937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c9a566e643655c8c999ca2c1238993') in 0.163716 seconds 
-  Import took 0.166235 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.051192 seconds 
+  Import took 0.053500 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.020814 seconds 
+  Import took 0.022930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1280cc7be10b532b2897fc8654f95d3') in 0.028295 seconds 
+  Import took 0.030444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.042725 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.030972 seconds 
+  Import took 0.033407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012106 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.009354 seconds 
+  Import took 0.011557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.073402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (694ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 2.146700 ms (FindLiveObjects: 0.167100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.849700 ms  DeleteObjects: 0.096500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
