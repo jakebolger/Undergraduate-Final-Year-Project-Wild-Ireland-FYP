@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 452949171587298082}
   - component: {fileID: 1327085515522939505}
   - component: {fileID: 5090564152393016973}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,9 +91,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2564993319567315059}
-  m_Layer: 0
+  - component: {fileID: 115371684152281981}
+  m_Layer: 7
   m_Name: douglasFGS
-  m_TagString: Untagged
+  m_TagString: InteractObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +114,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115371684152281981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2941835139451128521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861eafcf671e5ff428f684b5e1991706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Douglas Fir Tree
+  extraInfo: Well, the tallest tree recorded in Ireland is a Douglas-fir. It is growing
+    in Powerscourt, Co. Wicklow and measures fifty-six metres in height! The wood
+    from Douglas-firs is very tough. It is very popular for building garden furniture
+    or boats, which have to face the Irish weather every day.
+  inspectController: {fileID: 0}
 --- !u!1 &5039431425753318995
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +143,7 @@ GameObject:
   - component: {fileID: 3471257869363265557}
   - component: {fileID: 6675402011392233000}
   - component: {fileID: 3430167461773434270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: leaves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
