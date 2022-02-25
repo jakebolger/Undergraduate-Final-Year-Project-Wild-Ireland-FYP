@@ -336,7 +336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &365831185
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -588,7 +588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &701570377
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -667,10 +667,6 @@ MonoBehaviour:
   objects:
   - {fileID: 5611392318113995385, guid: 62b00b204533c3b46842749cc7a03503, type: 3}
   - {fileID: 8969206388643351631, guid: 7b50c615bbb74584590ca7baaca33ae1, type: 3}
-  - {fileID: 6979441404160220174, guid: 8c65a270d251899469f0f89401b7506a, type: 3}
-  - {fileID: 137394936802854472, guid: 3023c2f824ad5574a89e3f745e73b5f3, type: 3}
-  - {fileID: 3727291278341799836, guid: 14f6d5df1de7d6e46bdcad1c0e2b744c, type: 3}
-  - {fileID: 4863609474884978390, guid: 953562144f8368f4a8852e85427cc1f3, type: 3}
   heightCurve:
     serializedVersion: 2
     m_Curve:
