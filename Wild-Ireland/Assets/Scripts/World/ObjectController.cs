@@ -8,7 +8,10 @@ public class ObjectController : MonoBehaviour
 {
     [SerializeField] private string objectName;
 
+    
+
     [TextArea] [SerializeField] private string extraInfo;
+
 
     [SerializeField] private InspectController inspectController;
 
