@@ -43,7 +43,7 @@ public class InspectRaycast : MonoBehaviour
 
                 if(Input.GetMouseButtonDown(1))
                 {
-                    SceneManager.LoadScene("QuizOne");
+                    SceneManager.LoadScene("QuizMain");
                     
                                         
                 }
