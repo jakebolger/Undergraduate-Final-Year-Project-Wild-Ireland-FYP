@@ -15,6 +15,12 @@ public class AIS : MonoBehaviour
     public Transform pos2;
     public Transform pos3;
     public Transform pos4;
+    public Transform pos5;
+    public Transform pos6;
+    public Transform pos7;
+    public Transform pos8;
+    public Transform pos9;
+    public Transform pos10;
 
 
     // Start is called before the first frame update
@@ -57,6 +63,30 @@ public class AIS : MonoBehaviour
             _agent.SetDestination(pos4.position);
         }
         if (other.tag == "4")
+        {
+            _agent.SetDestination(pos5.position);
+        }
+        if (other.tag == "5")
+        {
+            _agent.SetDestination(pos6.position);
+        }
+        if (other.tag == "6")
+        {
+            _agent.SetDestination(pos7.position);
+        }
+        if (other.tag == "7")
+        {
+            _agent.SetDestination(pos8.position);
+        }
+        if (other.tag == "8")
+        {
+            _agent.SetDestination(pos9.position);
+        }
+        if (other.tag == "9")
+        {
+            _agent.SetDestination(pos10.position);
+        }
+        if (other.tag == "10")
         {
             _agent.SetDestination(pos1.position);
         }
