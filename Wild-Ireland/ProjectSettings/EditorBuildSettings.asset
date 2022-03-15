@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizMain.unity
     guid: 12ba536e041adab4f9069fd5f0dedb69
+  - enabled: 1
+    path: Assets/Scenes/Persistent Scene.unity
+    guid: 38bc4a09016b9dd419c82ab9ee45b212
   m_configObjects: {}

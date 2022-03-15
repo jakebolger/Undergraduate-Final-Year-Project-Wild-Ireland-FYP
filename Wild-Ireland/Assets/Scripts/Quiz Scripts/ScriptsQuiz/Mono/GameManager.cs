@@ -4,8 +4,14 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
+
+
+
+    
+
 
     #region Variables
 
@@ -62,7 +68,12 @@ public class GameManager : MonoBehaviour {
     void Awake()
     {
         events.CurrentFinalScore = 0;
+
+        
     }
+
+
+    
     /// <summary>
     /// Function that is called when the script instance is being loaded.
     /// </summary>
