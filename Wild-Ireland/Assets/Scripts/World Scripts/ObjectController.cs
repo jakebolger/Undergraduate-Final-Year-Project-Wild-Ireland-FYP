@@ -13,6 +13,8 @@ public class ObjectController : MonoBehaviour
     [TextArea] [SerializeField] private string extraInfo;
 
 
+
+
     [SerializeField] private InspectController inspectController;
 
     public void ShowObjectName()
@@ -24,6 +26,8 @@ public class ObjectController : MonoBehaviour
     {
         inspectController.HideName();
     }
+
+
 
     public void ShowExtraInfo()
     {

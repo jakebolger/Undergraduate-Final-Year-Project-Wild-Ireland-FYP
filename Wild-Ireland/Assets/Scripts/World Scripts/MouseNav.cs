@@ -17,18 +17,18 @@ public class MouseNav : MonoBehaviour
     void Update()
     {
         Cursor.visible = true;
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("Game");
+        //if (Input.GetMouseButtonDown(0))
+        //{
+            //SceneManager.LoadScene("Game");
 
 
-        }else
-        {
-            if (Input.GetKeyDown("b"))
-            {
-                SceneManager.LoadScene("WorldScene");
-            }
-        }
+        //}else
+        //{
+            //if (Input.GetKeyDown("b"))
+            //{
+                //SceneManager.LoadScene("WorldScene");
+            //}
+        //}
 
         
     }

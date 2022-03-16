@@ -13,6 +13,7 @@ public class InspectController : MonoBehaviour
     [SerializeField] private Text extraInfoUI;
     [SerializeField] private GameObject extraInfoBG;
     [HideInInspector] public bool startTimer;
+
     private float timer;
 
     private void start()
