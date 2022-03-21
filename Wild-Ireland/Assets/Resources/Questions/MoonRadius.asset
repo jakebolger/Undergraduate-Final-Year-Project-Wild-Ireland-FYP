@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: MoonRadius
   m_EditorClassIdentifier: 
-  _info: The radius of the moon is ..
+  _info: What is a main component of a red fox's diet?
   _answers:
-  - _info: 10,737 km
-    _isCorrect: 0
-  - _info: 2,546 km
-    _isCorrect: 0
-  - _info: 1,737 km
+  - _info: Rabbit
     _isCorrect: 1
+  - _info: Bird
+    _isCorrect: 0
+  - _info: Scraps
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

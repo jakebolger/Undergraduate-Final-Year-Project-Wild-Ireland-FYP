@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: KM
   m_EditorClassIdentifier: 
-  _info: 1km is equal to ..
+  _info: 'How long has the red fox been around for? '
   _answers:
-  - _info: 10m
-    _isCorrect: 0
-  - _info: 100m
-    _isCorrect: 0
-  - _info: 1000m
+  - _info: 5,000,000 Years
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  - _info: 10,000,000 Years
+    _isCorrect: 0
+  - _info: 900,000 Years
+    _isCorrect: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 1
   _addScore: 10

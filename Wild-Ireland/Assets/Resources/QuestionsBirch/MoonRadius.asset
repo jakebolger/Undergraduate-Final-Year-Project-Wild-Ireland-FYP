@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: MoonRadius
   m_EditorClassIdentifier: 
-  _info: Birch
+  _info: 'Birch Trees are used to make Plywood. '
   _answers:
-  - _info: 10,737 km
-    _isCorrect: 0
-  - _info: 2,546 km
-    _isCorrect: 0
-  - _info: 1,737 km
+  - _info: True
     _isCorrect: 1
+  - _info: False
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

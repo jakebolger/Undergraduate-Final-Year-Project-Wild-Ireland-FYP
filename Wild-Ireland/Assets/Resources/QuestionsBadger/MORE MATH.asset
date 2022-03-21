@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: MORE MATH
   m_EditorClassIdentifier: 
-  _info: Badger
+  _info: 18% of badgers are located in which habitat.
   _answers:
-  - _info: 1
+  - _info: Hedgerow
     _isCorrect: 0
-  - _info: 4
+  - _info: Scrub
+    _isCorrect: 0
+  - _info: Woodland
     _isCorrect: 1
   _useTimer: 1
-  _timer: 4
+  _timer: 10
   _answerType: 0
   _addScore: 10
