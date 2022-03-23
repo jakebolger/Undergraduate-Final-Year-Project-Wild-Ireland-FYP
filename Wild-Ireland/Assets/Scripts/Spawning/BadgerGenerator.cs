@@ -26,8 +26,8 @@ public class BadgerGenerator : MonoBehaviour
         {
             xPos = Random.Range(100, 200);
             zPos = Random.Range(-129, -55);
-            Instantiate(BadgerOne, new Vector3(xPos, 8, zPos), Quaternion.identity);
-            Instantiate(BadgerTwo, new Vector3(xPos, 8, zPos), Quaternion.identity);
+            Instantiate(BadgerOne, new Vector3(xPos, 7, zPos), Quaternion.identity);
+            Instantiate(BadgerTwo, new Vector3(xPos, 7, zPos), Quaternion.identity);
             yield return new WaitForSeconds(0.1f);
             BadgerCount += 1;
         }
