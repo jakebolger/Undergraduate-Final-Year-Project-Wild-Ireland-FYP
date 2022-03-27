@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapleQuiz.unity
     guid: 219c2384ba4f0ad49866e0cef334e8cf
+  - enabled: 1
+    path: Assets/Scenes/WorldScene 1.unity
+    guid: 7b230367a55972d4ea79ae3ea9406566
   m_configObjects: {}
