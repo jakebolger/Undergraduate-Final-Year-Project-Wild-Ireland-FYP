@@ -12,17 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: ChooseFood
   m_EditorClassIdentifier: 
-  _info: Pine
+  _info: 'What heights do most pine trees grow to? '
   _answers:
-  - _info: Rice
+  - _info: 10m
+    _isCorrect: 0
+  - _info: 20m
     _isCorrect: 1
-  - _info: Ice
+  - _info: 30m
     _isCorrect: 0
-  - _info: Dice
-    _isCorrect: 0
-  - _info: Mice?
-    _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 1
   _addScore: 10

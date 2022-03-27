@@ -12,17 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: ImportantQuestion
   m_EditorClassIdentifier: 
-  _info: Pine
+  _info: What is the life expectancy of an average Pine?
   _answers:
-  - _info: Flat
-    _isCorrect: 0
-  - _info: Sphere
+  - _info: 100-1000 Years
     _isCorrect: 1
-  - _info: Box
+  - _info: 50-100 Years
     _isCorrect: 0
-  - _info: Donut
+  - _info: 50-300 Years
     _isCorrect: 0
   _useTimer: 1
-  _timer: 30
+  _timer: 10
   _answerType: 1
   _addScore: 50

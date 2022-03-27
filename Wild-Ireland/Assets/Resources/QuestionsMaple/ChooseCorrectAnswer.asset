@@ -12,17 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: ChooseCorrectAnswer
   m_EditorClassIdentifier: 
-  _info: Maple
+  _info: 'What height does maple trees reach? '
   _answers:
-  - _info: RPG
-    _isCorrect: 0
-  - _info: RTS
+  - _info: '15 to 20 ft '
     _isCorrect: 1
-  - _info: FPS
+  - _info: 30 to 40 ft
     _isCorrect: 0
-  - _info: Horror
+  - _info: 9 to 20 ft
     _isCorrect: 0
   _useTimer: 1
-  _timer: 8
+  _timer: 10
   _answerType: 1
   _addScore: 10

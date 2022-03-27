@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: KM
   m_EditorClassIdentifier: 
-  _info: Douglas
+  _info: The wood on a douglas fir is __
   _answers:
-  - _info: 10m
+  - _info: Soft
     _isCorrect: 0
-  - _info: 100m
+  - _info: Flakey
     _isCorrect: 0
-  - _info: 1000m
+  - _info: Spongey
+    _isCorrect: 0
+  - _info: Tough
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 1
   _addScore: 10

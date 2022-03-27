@@ -966,6 +966,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
     Assets/Scenes/PineQuiz.unity:
     - Class: 1
       Script: {instanceID: 0}
