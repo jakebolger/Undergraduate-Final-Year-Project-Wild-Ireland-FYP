@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class InspectRaycast : MonoBehaviour
 {
     //public AudioSource clickAudio;
-    [SerializeField] private int rayLength = 5;
+    [SerializeField] private int rayLength = 8;
     [SerializeField] private LayerMask layerMaskInteract;
     private ObjectController raycastedObj;
 

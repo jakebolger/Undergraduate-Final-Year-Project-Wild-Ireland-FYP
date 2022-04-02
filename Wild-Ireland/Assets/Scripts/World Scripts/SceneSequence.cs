@@ -44,19 +44,7 @@ public class SceneSequence : MonoBehaviour
         yield return new WaitForSeconds(8);
         Cam1.SetActive(true);
         Cam4.SetActive(false);
-        //Cam4.SetActive(false);
-        //yield return new WaitForSeconds(4);
-        //Cam6.SetActive(true);
-        //Cam5.SetActive(false);
-        //yield return new WaitForSeconds(4);
-        //Cam7.SetActive(true);
-        //Cam6.SetActive(false);
-        //yield return new WaitForSeconds(4);
-        //Cam8.SetActive(true);
-        //Cam7.SetActive(false);
-        //yield return new WaitForSeconds(4);
-        //Cam9.SetActive(true);
-        //Cam8.SetActive(false);
+        
 
         yield return new WaitForSeconds(17);
         Cam1.SetActive(false);
