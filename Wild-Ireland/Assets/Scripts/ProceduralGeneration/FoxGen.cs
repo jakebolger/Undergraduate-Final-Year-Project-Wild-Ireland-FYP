@@ -21,7 +21,7 @@ public class FoxGen : MonoBehaviour
 
     IEnumerator FoxDrop()
     {
-        RandomRange = Random.Range(1, 3);
+        RandomRange = Random.Range(1, 2);
 
         while (FoxCount <= RandomRange)
         {

@@ -2523,7 +2523,7 @@ MonoBehaviour:
   - name: CountdownSFX
     clip: {fileID: 8300000, guid: d96155204d0229b4ca8cf77bb97ec537, type: 3}
     parameters:
-      Volume: 0.194
+      Volume: 0
       Pitch: 0.85
       Loop: 1
     Source: {fileID: 0}

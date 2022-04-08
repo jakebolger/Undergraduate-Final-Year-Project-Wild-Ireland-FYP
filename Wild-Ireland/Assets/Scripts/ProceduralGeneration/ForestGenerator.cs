@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class ForestGenerator : MonoBehaviour
 {
+
+    //Array for treeArray to add prefabs to
+    //
+    public Element[] treeArray;
     //integer that sets the size of the forest and allows you to change it in the inspector
     //
     public int forestSize = 25;
-    //Spacing between elements e.g. trees, rocks, bushes etc.
+    //Spacing between treeArray e.g. trees, rocks, bushes etc.
     //
-    public int elementSpacing = 3;
+    public int treeArraypacing = 3;
 
-    //Array for elements to add prefabs to
-    //
-    public Element[] elements;
+    
 
     //Generate function using terrainGeneratorForest 2 dimensional heightmap array
     //
@@ -21,17 +23,17 @@ public class ForestGenerator : MonoBehaviour
     public void Generate(float[,] heightMap)
     {
         //looping from 0 to set forest size and incrementing by the element spacing
-        //this means every 3 units in unity we will put i elements down
+        //this means every 3 units in unity we will put i treeArray down
         //
-        for (int x = 0; x < forestSize; x += elementSpacing)
+        for (int x = 0; x < forestSize; x += treeArraypacing)
         {
-            for (int z = 0; z < forestSize; z += elementSpacing)
+            for (int z = 0; z < forestSize; z += treeArraypacing)
             {
-                for (int i = 0; i < elements.Length; i++)
+                for (int i = 0; i < treeArray.Length; i++)
                 {
                     //Gets element, giving priority to trees
                     //
-                    Element element = elements[i];
+                    Element element = treeArray[i];
 
                     //if statement with CanPlace Function
                     //
@@ -63,7 +65,7 @@ public class ForestGenerator : MonoBehaviour
                         //
                         newElement.transform.SetParent(transform);
 
-                        //setting the elements position
+                        //setting the treeArray position
                         //
                         newElement.transform.position = position + offset;
 

@@ -922,7 +922,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1993963877}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.8230089
+  m_Size: 0.8230088
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2518,7 +2518,7 @@ MonoBehaviour:
   - name: CountdownSFX
     clip: {fileID: 8300000, guid: d96155204d0229b4ca8cf77bb97ec537, type: 3}
     parameters:
-      Volume: 0.422
+      Volume: 0
       Pitch: 0.85
       Loop: 1
     Source: {fileID: 0}
@@ -2772,7 +2772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: -0.000015258789}
   m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1660891955
