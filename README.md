@@ -5,5 +5,5 @@ Wild-Ireland Project Submission Github
 
 Jake Bolger C18395341
 
-To run the built version of the game, simply download the project and run the 'wild-ireland.exe' file in the game builds folder.
-To view project in Unity, download 'Wild-ireland' folder and open in Unity.
+To run the built version of the game, simply download the project and run the 'Wild-Ireland.exe' file in the game builds folder.
+To view project in Unity, download 'Wild-Ireland' folder and open in Unity.
